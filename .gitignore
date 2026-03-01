@@ -1,0 +1,45 @@
+# ─── Python ─────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ─── Virtual Environments ───────────
+venv/
+.env/
+env/
+
+# ─── Model Artifacts (large binaries) ─
+backend/models/*.pkl
+
+# ─── Generated Data ─────────────────
+backend/data/*.csv
+
+# ─── IDE / OS ────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ─── Node / Frontend ────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── Environment Variables ──────────
+.env
+.env.local
+.env.production
+
+# ─── Logs ────────────────────────────
+*.log
+npm-debug.log*

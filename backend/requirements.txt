@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+lightgbm
+scikit-learn
+shap
+numpy
+scipy
+pandas
+python-multipart
